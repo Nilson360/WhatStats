@@ -37,7 +37,7 @@ bars = plt.bar(months, counts)
 plt.xlabel('Mois')
 plt.ylabel('Nombre de messages')
 plt.title('Nombre de messages par mois')
-plt.xticks(rotation=90)  # This will rotate the x-axis labels to make them more readable
+plt.xticks(rotation=90)
 
 # Ajout du nombre de messages au-dessus de chaque barre
 for bar in bars:

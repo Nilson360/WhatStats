@@ -25,7 +25,7 @@ for line in data:
 for participant, count in message_count.items():
     print(f"{participant}: {count} messages")
 
-# Exemple de visualisation des résultats avec Matplotlib
+# Visualisation des résultats avec Matplotlib
 
 participants = list(participants)
 message_counts = [message_count[participant] for participant in participants]
@@ -34,5 +34,5 @@ plt.bar(participants, message_counts)
 plt.xlabel('Participants')
 plt.ylabel('Nombre de messages')
 plt.title('Statistiques des messages')
-plt.xticks(rotation=90)  # This will rotate the x-axis labels to make them more readable
+plt.xticks(rotation=90)
 plt.show()

@@ -40,7 +40,7 @@ bars = plt.bar(participants, counts)
 plt.xlabel('Participants')
 plt.ylabel('Nombre de messages')
 plt.title('Top 10 des participants par nombre de messages')
-plt.xticks(rotation=90)  # This will rotate the x-axis labels to make them more readable
+plt.xticks(rotation=90)
 
 # Ajout du nombre de messages au-dessus de chaque barre
 for bar in bars:

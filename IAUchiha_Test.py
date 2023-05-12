@@ -1,4 +1,5 @@
 
+## CECI EST UN TEST GÉNÉRÉ AVEC CHATGPT
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
